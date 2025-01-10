@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"   />
+  <link rel="stylesheet" href="ex.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="nav-logo border">
+      </div>
+      <div class="nav-search">
+        <input type="text" placeholder="Search here" id="search-input" class="search-input">
+        <div class="search-icon">
+          <i id="search-button" class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+        <div class="icons">
+          <i id="viewcart" class="fas fa-shopping-cart border"></i>
+          <i id="account" class="fas fa-user border"></i>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-list">
+        <div class="jsBorder">
+          <a href="#" class="border borderActive">All</a>
+        </div>
+        <div class="jsBorder">
+          <a href="#" class="border">Apple</a>
+        </div>
+        <div class="jsBorder">
+          <a href="#" class="border">Samsung</a>
+        </div>
+        <div class="jsBorder">
+          <a href="#" class="border">Vivo</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="category">
+      <div class="apple-logo">
+        <img src="apple.png"alt = "not supported">
+      </div>
+      <div class="product-list" id="apple">
+        <div class="first resp" data-name="iPhone 16 Pro">
+            <div class="box1">
+              <img src="iphone16pro.png" alt="">
+            </div>
+            <span class="all-span">
+              <p class="line">iPhone 16 Pro 256 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a<br>
+                Huge Leap in Battery Life. Works with AirPods; White Titanium</p>
+              <p> ₹1,22,900(5% off)</p>
+              <p>FREE delivery</p>
+              <button class="add">Add to cart</button>
+            </span>
+          </div>
+          <div class="sec resp" data-name="iPhone 16 Pro">
+            <div class="box2">
+                <img src="iphone16plus.png" alt="">
+            </div>
+            <span class="all-span">
+              <p class="line">iPhone 16 Plus 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in
+                <br>Battery Life. Works with AirPods; Pink</p>
+              <p> ₹ 88,600 (5% off)</p>
+              <p>FREE delivery</p>
+              <button class="add">Add to cart</button>
+            </span>
+          </div>
+          <div class="third resp" data-name="iPhone 16 Pro">
+            <div class="box3">
+              <img src="iphone13.png" alt="">
+            </div>
+            <span class="all-span">
+              <p class="line"> Apple iPhone 13 (128GB): 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in
+                <br>Battery Life. Works with AirPods; - Green</p>
+              <p> ₹ 48,600 (45% off)</p>
+              <p>FREE delivery</p>
+              <button class="add">Add to cart</button>
+            </span>
+          </div>
+      </div>
+    </section>
+    <section class="category">
+      <div class="samsung-logo">
+        <img
+          src="samsung.png">
+      </div>
+      <div class="product-list" id="samsung">
+        <div class="fourth resp" data-name="iPhone 16 Pro">
+          <div class="box4">
+            <img src="s24.png" alt="">
+          </div>
+          <span class="all-span">
+            <p class="line">Samsung Galaxy S24 5G AI Smartphone (Marble Gray, 8GB, 128GB Storage)</p>
+            <p> ₹ 59,999 (15% off)</p>
+            <p>FREE delivery</p>
+            <button class="add">Add to cart</button>
+          </span>
+        </div>
+        <div class="fifth resp" data-name="iPhone 16 Pro">
+          <div class="box5">
+            <img src="s24ultra.png" alt="">
+          </div>
+          <span class="all-span">
+            <p class="line">Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Black, 12GB, 256GB Storage)</p>
+            <p> ₹ 1,19,999 (15% off)</p>
+            <p>FREE delivery</p>
+            <button class="add">Add to cart</button>
+          </span>
+        </div>
+        <div class="sixth resp" data-name="iPhone 16 Pro">
+          <div class="box6">
+            <img src="s23ultra.png" alt="">
+          </div>
+          <span class="all-span">
+            <p class="line">Samsung Galaxy S23 Ultra 5G AI Smartphone (Cream, 12GB, 256GB Storage)</p>
+            <p> ₹ 79,999 (15% off)</p>
+            <p>FREE delivery</p>
+            <button class="add">Add to cart</button>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="category last">
+      <div class="vivo-logo">
+        <img
+          src="vivo.png"
+          alt="not supported">
+      </div>
+      <div class="product-list" id="vivo">
+        <div class="seventh resp" data-name="Vivo V40">
+          <div class="box7">
+            <img src="vivov40.png" alt="">
+          </div>
+          <span class="all-span">
+            <p class="line"> Vivo V40 5G Smartphone (Lotus Purple, 8GB RAM, 256GB Storage)</p>
+            <p> ₹ 34,499 (15% off)</p>
+            <p>FREE delivery</p>
+            <button class="add">Add to cart</button>
+          </span>
+        </div>
+        <div class="eighth resp" data-name="Vivo  V30">
+          <div class="box8">
+            <img src="vivov30.png" alt="">
+          </div>
+          <span class="all-span">
+            <p class="line">Vivo V30e 5G Smartphone (Velvet Red, 8GB RAM, 128GB Storage)</p>
+            <p> ₹ 23,998 (15% off)</p>
+            <p>FREE delivery</p>
+            <button class="add">Add to cart</button>
+          </span>
+        </div>
+        <div class="ninth resp"data-name="Vivo T3">
+          <div class="box9">
+            <img src="vivot3.png" alt="">
+          </div>
+          <span class="all-span">
+            <p class="line">Vivo T3x 5G Smartphone (Crimson Bliss, 128 GB) (6 GB RAM)</p>
+            <p> ₹ 13,579 (5% off)</p>
+            <p>FREE delivery</p>
+            <button class="add">Add to cart</button>
+          </span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 InfiniteGoods Store. All rights reserved.</p>
+  </footer>
+  <script>
+    const border = document.querySelectorAll('.border');
+    
+    border.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        border.forEach((btn) => {
+          btn.style.color = 'white'
+        })
+        btn.style.color = 'orangered'
+      })
+    })
+
+    // const arr = [
+    //   {
+    //     "brand" : "apple",
+    //     "img" : [
+    //       "https://m.media-amazon.com/images/I/61xJlx-3KDL._AC_UY218_.jpg",
+    //       "https://m.media-amazon.com/images/I/71GboE2uUUL._AC_UY218_.jpg",
+    //       "https://m.media-amazon.com/images/I/61-r9zOKBCL._AC_UY218_.jpg",
+    //     ]
+    //   },
+    //   {
+    //     "brand" : "samsung",
+    //     "img" : [
+    //       "https://m.media-amazon.com/images/I/61+g6KrDXdL._AC_UY218_.jpg",
+    //       "https://m.media-amazon.com/images/I/71CXhVhpM0L._AC_UY218_.jpg",
+    //       "https://m.media-amazon.com/images/I/71OXmy3NMCL._AC_UY218_.jpg",
+    //     ]
+    //   },
+    //   {
+    //     "brand" : "vivo",
+    //     "img" : [ 
+    //       // {
+    //       //   photo : [
+    //       //     "https://m.media-amazon.com/images/I/71xn2SVjqgL._AC_UY218_.jpg",
+    //       //     "https://m.media-amazon.com/images/I/71xn2SVjqgL._AC_UY218_.jpg",
+    //       //     "https://m.media-amazon.com/images/I/71xn2SVjqgL._AC_UY218_.jpg",
+    //       //   ],
+    //       //   price : '5677',
+
+    //       // },
+    //       "https://m.media-amazon.com/images/I/71xn2SVjqgL._AC_UY218_.jpg",
+    //       "https://m.media-amazon.com/images/I/61vxwwIEnXL._AC_UY218_.jpg",
+    //       "https://m.media-amazon.com/images/I/81m1SddJ6-L._AC_UY218_.jpg",
+    //     ]
+    //   }
+    // ]
+
+    // for (let j = 0; j < arr.length; j++) { 
+    //   for (let i = 0; i < arr[j].img.length; i++) {
+    //     document.getElementById(arr[j].brand).innerHTML += `
+    //       <div class="first resp" data-name="iPhone 16 Pro">
+    //         <div class="box1">
+    //           <img src="${arr[j].img[i]}" alt="">
+    //         </div>
+    //         <span class="all-span">
+    //           <p class="line">iPhone 16 Pro 256 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a
+    //             Huge Leap in Battery Life. Works with AirPods; White Titanium</p>
+    //           <p> ₹1,22,900(5% off)</p>
+    //           <p>FREE delivery</p>
+    //           <button class="add">Add to cart</button>
+    //         </span>
+    //       </div>
+    //     `;
+    //   }
+    // }
+
+    // const arr1 = ['a','b','c']
+    // for (let i = 0; i < arr1.length; i++) {
+    //   console.log(arr1[i]);
+    // }
+
+
+    // for (let j = 0; j < arr.length; j++) {
+    //   if (arr[j].brand === 'apple') {
+    //     for (let i = 0; i < arr[j].img.length; i++) {
+    //       apple.innerHTML += `
+    //         <div class="first resp" data-name="iPhone 16 Pro">
+    //           <div class="box1">
+    //             <img src="${arr[j].img[i]}" alt="">
+    //           </div>
+    //           <span class="all-span">
+    //             <p class="line">iPhone 16 Pro 256 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a<br>
+    //               Huge Leap in Battery Life. Works with AirPods; White Titanium</p>
+    //             <p> ₹1,22,900(5% off)</p>
+    //             <p>FREE delivery</p>
+    //             <button class="add">Add to cart</button>
+    //           </span>
+    //         </div>
+    //       `;
+    //     }
+    //   } else if (arr[j].brand === 'samsung') {
+    //     for (let i = 0; i < arr[j].img.length; i++) {
+    //       samsung.innerHTML += `
+    //         <div class="first resp" data-name="iPhone 16 Pro">
+    //           <div class="box1">
+    //             <img src="${arr[j].img[i]}" alt="">
+    //           </div>
+    //           <span class="all-span">
+    //             <p class="line">iPhone 16 Pro 256 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a<br>
+    //               Huge Leap in Battery Life. Works with AirPods; White Titanium</p>
+    //             <p> ₹1,22,900(5% off)</p>
+    //             <p>FREE delivery</p>
+    //             <button class="add">Add to cart</button>
+    //           </span>
+    //         </div>
+    //       `;
+    //     }
+    //   } else if (arr[j].brand === 'vivo') {
+    //     for (let i = 0; i < arr[j].img.length; i++) {
+    //       vivo.innerHTML += `
+    //         <div class="first resp" data-name="iPhone 16 Pro">
+    //           <div class="box1">
+    //             <img src="${arr[j].img[i]}" alt="">
+    //           </div>
+    //           <span class="all-span">
+    //             <p class="line">iPhone 16 Pro 256 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a<br>
+    //               Huge Leap in Battery Life. Works with AirPods; White Titanium</p>
+    //             <p> ₹1,22,900(5% off)</p>
+    //             <p>FREE delivery</p>
+    //             <button class="add">Add to cart</button>
+    //           </span>
+    //         </div>
+    //       `;
+    //     }
+    //   }
+    // }
+    
+
+
+    // Search functionality
+    // const searchInput = document.getElementById("search-input");
+    // const searchButton = document.getElementById("search-button");
+    // const productList = document.getElementById("product-list");
+
+    // searchButton.addEventListener("click", () => {
+    //   const query = searchInput.value.toLowerCase();
+    //   const products = document.querySelectorAll(".resp");
+
+    //   products.forEach(product => {
+    //     const productName = resp.dataset.name.toLowerCase();
+    //     if (productName.includes(query)) {
+    //       resp.style.display = "block";
+    //     } else {
+    //       resp.style.display = "none";
+    //     }
+    //   });
+    // });
+  </script>
+</body>
+
+</html>

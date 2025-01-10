@@ -1,0 +1,229 @@
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right,
+    #6190e8,
+    #a7bfe8);
+    margin:0;
+    padding: 0;
+}
+.apple-logo{
+    text-align: center;
+}
+.apple-logo img{
+    height:3rem;
+    width:9rem;
+}
+.samsung-logo{
+    text-align: center;
+}
+.samsung-logo img{
+    height:10rem;
+    width:12rem;
+}
+.vivo-logo{
+    text-align: center;
+}
+.vivo-logo img{
+    height:4rem;
+    width:8rem;
+}
+.border {
+    color:white;
+    text-decoration: none;
+}
+.borderActive {
+    color: orangered;
+}
+.navbar{
+    height:3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1d1e;
+    color: white;
+    padding: 5px 20px;
+}
+.nav-logo{
+    background:url(infinite.jpg);
+    margin:0;
+    height:5rem;
+    width:7em;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+.nav-search{
+    display:flex;
+    background-color: maroon;
+    width:30rem;
+    height:2.5rem;
+}
+.search-input{
+    width:27rem;
+    border:none;
+    font-size:1rem;
+}
+.search-icon{
+    width:0.5rem;
+    font-size:1.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+}
+.nav-all{
+    display:flex;
+    justify-content: space-between;;
+    align-items: center;
+}
+.button{
+    padding:1rem;
+}
+.icons{
+    display:flex;
+    gap:1rem;
+    font-size:2rem;
+   margin-left: none;
+}
+.panel{
+    display:flex;
+    height:2.5rem;
+    background-color: #363638;
+    align-items: center;
+    gap:1.5rem;
+    padding-left: 0.7rem;
+    color:white;
+}
+.panel-list {
+    display:flex;
+    align-items: center;
+    gap:1rem;
+}
+
+main {
+    padding:4px 20px;
+}
+
+.last {
+    margin-bottom: 40px;
+}
+
+.product p {
+    font-size: 16px;
+    color: #333;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding-block: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.product-list{
+    display:flex;
+    flex-direction:column;
+    padding-top:0.2rem;
+    gap:2rem;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 img{
+    height:220px;
+    width:178px;
+    object-fit: contain;
+    border:none;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    margin: 15px;
+    margin-bottom: 5px;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+.first,
+.sec,
+.third,
+.fourth,
+.fifth,
+.sixth,
+.seventh,
+.eighth,
+.ninth{
+    display:flex;
+    flex-direction:row;
+   gap:1rem;
+}
+.line:hover{
+    color:#c45500;
+    cursor: pointer;
+}
+.add{
+    background:yellow;
+    border-radius:40%;
+    font-size: 13px;
+    padding:0.4rem;
+}
+/* responsive design */
+@media (max-width: 768px){
+    .nav-search{
+        width:14rem;
+        height:1.9rem;
+    }
+    .search-input{
+        width:11rem;
+        border:none;
+        font-size:1rem;
+    }
+    .resp{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+       gap:1rem;
+    }
+   
+    
+    .nav-logo{
+        height:3.5rem;
+        width:5rem;
+        
+    }
+    .navbar{
+        padding: 5px 20px;
+    }
+    .all-span{
+        margin-left: 1rem;
+        font-size: 15px;
+    }
+    .icons{
+        gap:1rem;
+        font-size:1.3rem;
+    }
+    .navbar{
+        padding:5px 12px;
+    }
+   
+}
+.product-list {
+    align-items: center;
+}
+.resp {
+    border: 1px solid rgb(205, 205, 205);
+    max-width: 820px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 2px rgb(223, 223, 223);
+    background: linear-gradient(to right,
+    #6190e8,
+    #a7bfe8)};
